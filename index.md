@@ -1,2 +1,14 @@
-CSE 15L lab
-website for Artem Tchernov
+CSE 15L lab website for Artem Tchernov <br>
+Italics: *CSE*  
+Bold: **CSE**  
+Heading 1: # CSE  
+Heading 2: ## CSE  
+[Link] (https://atch19.github.io/cse15l-lab-reports/index.html)  
+![Image] (https://students.ucsd.edu/_images/landing-pages/my-tritonlink-banner.PNG)  
+> CSE  
+* CSE
+* CSE
+* CSE
+1. CSE
+2. CSE
+3. CSE
