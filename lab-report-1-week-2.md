@@ -7,13 +7,18 @@ This is what it should show when you complete the set up
 
 [2]: vscode.PNG  
 ![vscode launch][2]
+
+
 ***
 ## Remotely Connecting
 * Go to [Username tool](https://sdacs.ucsd.edu/~icc/index.php) to find your username for this CSE 15L class, then reset your password for that account. 
 * Launch VScode, open the terminal from Terminal > New Terminal.
 * Type `ssh cs15lsp22zz@ieng6.ucsd.edu`, replace cs15lssp22zz with your username. 
 * If this is your first time, click yes when prompted. After which type in your password. 
-* You should see a simular output.
+* You should see a simular output. <br>
+
+
+
 ```
 Last login: Fri Apr  1 12:33:23 2022 from 100.82.177.183
 quota: No filesystem specified.
