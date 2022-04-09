@@ -5,10 +5,10 @@ Heading 1: # CSE
 Heading 2: ## CSE  
 [Link] (https://atch19.github.io/cse15l-lab-reports/index.html)  
 ![Image] (https://students.ucsd.edu/_images/landing-pages/my-tritonlink-banner.PNG)  
-> CSE  
+> CSE  <br>
 * CSE
 * CSE
-* CSE
+* CSE <br>
 1. CSE
 2. CSE
 3. CSE
