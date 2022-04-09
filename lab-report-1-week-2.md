@@ -1,5 +1,5 @@
 # **First Report Week 2**
-## Installing VScode
+## 1. Installing VScode
 * To install VScode go to [Visual Studio Code Webpage](https://code.visualstudio.com/).
 * Follow the instructions when prompted.
 
@@ -10,7 +10,7 @@ This is what it should show when you complete the set up
 
 
 ***
-## Remotely Connecting
+## 2. Remotely Connecting
 * Go to [Username tool](https://sdacs.ucsd.edu/~icc/index.php) to find your username for this CSE 15L class, then reset your password for that account. 
 * Launch VScode, open the terminal from Terminal > New Terminal.
 * Type `ssh (Username)@ieng6.ucsd.edu`, replace (Username) with your username. 
@@ -39,7 +39,7 @@ Fri Apr 01, 2022  6:13pm - Prepping cs15lsp22
 [cs15lsp22alk@ieng6-203]:~:74$ 
 ```
 
-## Trying some commands
+## 3. Trying some commands
 * You should try to run a few commands. You can find most on the web but, here are a few examples: cd {dir}, ls, pwd, mkdir {name}, and cp.
 * You can try to log out and run a few of those commands again, on your local pc, just to get to know your environment.   
 
@@ -48,7 +48,7 @@ Here is a sample of the mkdir and ls command.
 [1]: example.PNG  
 ![Example code][1]
 
-## Moving Files with `scp`
+## 4. Moving Files with `scp`
 * Scp is used to safely transfer files between different computers. 
 * To start off lets create a java file with some code.
 
@@ -79,7 +79,7 @@ You should get a simular output:
 
 
 
-## Setting a SSH Key
+## 5. Setting a SSH Key
 * SSH keys are useful to assist with logging in and out of servers without using your password which can be tiresome. 
 * This process will create a pair of private and public keys which will help you log in faster. 
 * Type in `ssh-keygen`.
@@ -99,8 +99,10 @@ If everything went smoothly, this is what you should see.
 
 [5]: nopassword.PNG  
 ![SCP1][5]
+
+
 Notice how I am not prompted to enter my password. 
-## Optimizing Remote Running
+## 6. Optimizing Remote Running
 * You can now run commands from  your local computer to the remote computer. Try `ssh (username)@ieng6.ucsd.edu "ls"`
 * It will quickly log into the server and run the command and then log out, printing the output in the terminal. 
 * To run several commands at once, add a `;` between commands. 
