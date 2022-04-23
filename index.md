@@ -12,6 +12,8 @@ Bold: **CSE**
 ![Image](https://students.ucsd.edu/_images/landing-pages/my-tritonlink-banner.PNG)   
 > CSE  <br>
 
+
+
 * CSE
 * CSE
 * CSE <br>  
@@ -25,5 +27,8 @@ Inline: `CSE`
 ```
 CSE block
 ```
-This is the link to the Lab 2 report
+This is the link to the Lab 2 report (week 2)
 [Lab Report 1](https://atch19.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+This is the link to the Lab 4 report (week 4)
+[Lab Report 2](https://github.com/Atch19/cse15l-lab-reports/blob/main/lab-report-2-week-4.md)
