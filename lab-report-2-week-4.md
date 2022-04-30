@@ -17,7 +17,7 @@
 
 (Ignore the printed file name at the bottom, that was a new print statement made for testing purposes). 
 
-* Although calling markdownParse on test-file6 yielded a result ([page.com]), it was incorrect. The original code indicates that page.com is the source for an image, but the MarkdownParse program was created to find the links, not images. Therefore we can't allow a program to print images in an list which was meant to store links only. The fix was to implement a conditional if statement to exclude link-type objects with the exclamation point preceding. 
+* Although calling markdownParse on test-file6 yielded a result ([page.com]), it was incorrect, therefore it was a symptom of the bug. The input file indicates that page.com is the source for an image, but the MarkdownParse program was created to find the links, not images. Therefore the bug was due to the program not being able to recognize image references and links. The fix was to implement a conditional if statement to exclude link-type objects with the exclamation point preceding. 
 
 
 ***
@@ -36,7 +36,7 @@
 [06]: error2.PNG
 ![ErrorWithOutChange3][06]
 
-* The relationship between the bug, the symptom, and the input file, was that the test files contained elements of a link, but were not complete, resulting in the while loop spinning endlessly and resulting in a java heap error. The while loop could not be stopped due to the never ending cycle of trying to find the concluding elements of a link. Therefore this fix was implemented where we check if any of the four elements of a link arn't present in the markdown test input, if any one of these was not found, the loop would break. 
+* The bug present in the code was the inability of the code to stop if there was a bracket or a parenthesis which lacked a complementary one. This resulted in the symptom, which was a Java Heap Error, clearly resulting because the while loop could not stop. As stated previously the input file lacked complementary brackets or parenthesis which caused the program to error. The fix that we implemented was to break the loop if there was a lacking parenthesis. Therefore this fix was implemented where we check if any of the four elements of a link arn't present in the markdown test input, if any one of these was not found, the loop would break. 
 
 ***
 
