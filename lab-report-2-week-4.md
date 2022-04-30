@@ -36,7 +36,7 @@
 [06]: error2.PNG
 ![ErrorWithOutChange3][06]
 
-* The bug present in the code was the inability of the code to stop if there was a bracket or a parenthesis which lacked a complementary one. This resulted in the symptom, which was a Java Heap Error, clearly resulting because the while loop could not stop. As stated previously the input file lacked complementary brackets or parenthesis which caused the program to error. The fix that we implemented was to break the loop if there was a lacking parenthesis. Therefore this fix was implemented where we check if any of the four elements of a link arn't present in the markdown test input, if any one of these was not found, the loop would break. 
+* The bug present in the code was the inability of the code to stop if there was a bracket or a parenthesis which lacked a complementary one. This resulted in the symptom, which was a Java Heap Error, clearly resulting because the while loop could not stop. As stated previously the input file lacked complementary brackets or parenthesis which caused the program to error. Therefore this fix was implemented where we check if any of the four elements of a link arn't present in the markdown test input, if any one of these was not found, the loop would break. 
 
 ***
 
