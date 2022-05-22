@@ -102,13 +102,17 @@ Did not pass:
  *This result was determined by what markdown considers a link to a website, not exactly in the spirit of the program which determines links based on the relative position to [] and ()*
 
 **What it looks like:**
+
+[t3]: t3.PNG
+![3-2][t3]
+
+
+**Output:**
 Did not pass:
 
 [r3]: r3.PNG
 ![3-2][r3]
 
-
-**Output:**
 
 ### **Their Implementation (the one we reviewed)**
 ***
