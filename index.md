@@ -11,3 +11,6 @@ This is the link to the Lab 5-6 report 3 (week 6)
 
 This is the link to the Lab 7-8 report 4 (week 8)
 [Lab Report 4](https://atch19.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
+
+This is the link to the Lab 9-10 report 5 (week 10)
+[Lab Report 5](https://atch19.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
